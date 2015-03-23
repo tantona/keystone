@@ -8,7 +8,7 @@ var fs = require('fs'),
 	numeral = require('numeral'),
 	cloudinary = require('cloudinary'),
 	utils = require('keystone-utils'),
-	prepost = require('./lib/prepost');
+	grappling = require('grappling-hook');
 
 var templateCache = {};
 
